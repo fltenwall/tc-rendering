@@ -1,6 +1,6 @@
-# tc-component
+# tc-rendering
 
-tc-component 提供开箱即用的 app 同层渲染组件。
+tc-rendering 提供开箱即用的 app 同层渲染组件。
 
 ## 开发指南
 
