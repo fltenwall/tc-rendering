@@ -1,0 +1,56 @@
+{
+  "name": "tc-component",
+  "version": "1.0.7",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "start": "yarn serve --mode web",
+    "start:android": "yarn serve --mode android",
+    "start:ios": "yarn serve --mode ios",
+    "build:web": "vue-cli-service build --mode web",
+    "build:android": "vue-cli-service build --mode android",
+    "build:ios": "vue-cli-service build --mode ios",
+    "lint": "vue-cli-service lint",
+    "build": "vue-cli-service build --target lib --name tc-component --dest lib packages/index.js"
+  },
+  "main": "lib/tc-component.umd.min.js",
+  "dependencies": {
+    "@vue/eslint-config-airbnb": "^5.3.0",
+    "core-js": "^3.6.5",
+    "less": "^4.1.1",
+    "less-loader": "5.0.0",
+    "uuid": "^8.3.2",
+    "vant": "^2.12.11",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "author": "fltenwall",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
